@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Java Script</h1>
+
+    <!-- On CLick  -->
+    <button  onclick="onClick()">CLick Me</button>
+    <br><br>
+
+    <input id="change" type="text" onchange="onChange()">
+
+    <br><br>
+
+    <div id="mouse" onmouseover="mouseOver()" onmouseout="mouseOut()" style="width: 200px; height: 200px; background-color: brown;"></div>
+
+    <br><br>
+
+    <!-- <div class="content"> -->
+        <img onmouseout="img1HoverOut()" id="img-1" src="../assets/chat-c.png" alt=""><br>
+        <img onmouseover="img2Hover()" id="img-2" src="../assets/chat-c-1.png" alt="">
+    <!-- </div> -->
+    <br><br>
+
+    <input id="key" onkeypress="keyPress()" onkeyup="onKeyUp()" onkeydown="onKeyDown()" type="text">
+    <h1 id="display"></h1>
+
+    <br><br><br>
+
+    <div class="valid-content">
+        <input onkeyup="changeText()" type="text" id="validation"><br>
+        <label id="error"></label>
+    </div>
+     
+    
+    <!-- Internal Script  -->
+    <script type="text/JavaScript">
+        console.log('ACPT')
+    </script>
+
+    <!-- External Script  -->
+    <script type="text/JavaScript" src="./index.js"></script>
+</body>
+</html>
